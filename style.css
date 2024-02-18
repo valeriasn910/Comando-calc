@@ -10,3 +10,11 @@ div {
     height: calc(40vh + 20px);
     margin: 10px 0 0 20px;
 }
+
+h1{
+    font-size: 18px;
+    color: rgb(243, 249, 78);
+}
+h1::after{
+    content: "😊";
+}
